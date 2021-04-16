@@ -1,0 +1,19 @@
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30vh;
+  width: 20vw;
+  position: absolute;
+}
+
+
+
+@media screen and (min-width: 280px) and (max-width: 540px) {
+  .grid {
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
